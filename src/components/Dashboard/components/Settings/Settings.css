@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.user-info-box {
+  height: 100px;
+  margin: 1rem 1.4rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* margin-left: 30px; */
+  border: 2px solid rgb(255, 255, 255);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.profile-dp {
+  width: fit-content;
+}
+
+p {
+  margin: 0 0;
+  padding: 0 0;
+}
+.user-details {
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  width: fit-content;
+  line-height: normal;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(173, 173, 173);
+}
+
+.name {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Settings.css */
+/* Settings.css */
+
+.settingNavLinks {
+  margin: 2rem 2rem;
+}
+.checkProfileBtn {
+  border: none;
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  text-align: start;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgb(226, 236, 252);
+  font-weight: 400;
+  color: rgb(86, 86, 86);
+}
+
+.checkProfileBtn span {
+  font-weight: 500;
+  float: right;
+  font-family: "Raleway", sans-serif;
+}
+
+.profile-details-section {
+  padding: 1rem 1rem;
+  /* animation: slideUPAnimate 1s forwards; */
+}
+
+/* @keyframes slideUPAnimate {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+} */
+
+.info-item {
+  margin: 12px 0px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.info-text {
+  color: gray;
+}
+
+.more-info .form-group {
+  margin: 1rem 0rem;
+  width: 90%;
+}
+
+.more-info button {
+  margin: 1rem 1rem;
+  width: 20%;
+}
+.edit-btn1 {
+  height: fit-content;
+  border-radius: 6px;
+  /* background-color: rgb(195, 196, 197); */
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}

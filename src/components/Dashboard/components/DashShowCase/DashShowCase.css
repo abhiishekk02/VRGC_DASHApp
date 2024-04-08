@@ -1,0 +1,65 @@
+.image-card img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+/* ImagesCRUD */
+
+.headline {
+  font-size: large;
+  font-weight: 500;
+  color: rgb(171, 171, 171);
+  padding: 0px 14px;
+}
+.imageUploadForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageUploadForm input {
+  border-radius: 6px;
+  border: 2px solid rgb(204, 204, 204);
+  background-color: #fff;
+  height: 40px;
+  width: calc(40% - 20px);
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+.imageUploadForm input:focus {
+  border: 2px solid #1a73e8;
+  box-shadow: none;
+}
+
+.imageUploadForm input::placeholder,
+.certificate-form input::placeholder,
+.clients-form {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.imageUploadForm button {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.display-none {
+  display: none;
+}
+
+/* CSS for the modal backdrop blur effect */
+
+/* CSS for the modal backdrop when modal is open */

@@ -1,0 +1,6 @@
+.search-bar:focus {
+  border: 1.5px solid rgb(207, 206, 206);
+  background-color: white;
+  box-shadow: none;
+  outline: none;
+}
